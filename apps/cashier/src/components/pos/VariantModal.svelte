@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { X, Check } from 'lucide-svelte';
+  import { X, Check } from '@lucide/svelte';
   import type { Product, ProductVariant } from '@arpos/shared-types';
   import { formatCurrency } from '@arpos/utilities';
 

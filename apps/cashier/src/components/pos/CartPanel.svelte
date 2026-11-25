@@ -8,7 +8,7 @@
     Package,
     CreditCard,
     FileText
-  } from 'lucide-svelte';
+  } from '@lucide/svelte';
   import type { OrderItem, OrderType } from '@arpos/shared-types';
   import { formatCurrency, calculateOrderTotals } from '@arpos/utilities';
   import { posClient } from '@arpos/supabase-client';

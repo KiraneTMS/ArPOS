@@ -5,7 +5,7 @@
     QrCode,
     CreditCard,
     CheckCircle2
-  } from 'lucide-svelte';
+  } from '@lucide/svelte';
   import type { PaymentMethod } from '@arpos/shared-types';
   import { formatCurrency } from '@arpos/utilities';
 

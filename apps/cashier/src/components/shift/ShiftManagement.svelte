@@ -9,7 +9,7 @@
     CheckCircle2,
     TrendingUp,
     FileText
-  } from 'lucide-svelte';
+  } from '@lucide/svelte';
   import type { CashierShift } from '@arpos/shared-types';
   import { formatCurrency, calculateDiscrepancy } from '@arpos/utilities';
   import { posClient } from '@arpos/supabase-client';

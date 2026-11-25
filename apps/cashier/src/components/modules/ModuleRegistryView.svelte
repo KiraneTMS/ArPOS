@@ -7,7 +7,7 @@
     Sliders,
     Sparkles,
     CheckCircle2
-  } from 'lucide-svelte';
+  } from '@lucide/svelte';
   import type { ModuleId } from '@arpos/shared-types';
   import { SYSTEM_MODULES, validateModuleDependencies } from '@arpos/utilities';
   import { posClient } from '@arpos/supabase-client';

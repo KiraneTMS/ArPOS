@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Printer, CheckCircle, X } from 'lucide-svelte';
+  import { Printer, CheckCircle, X } from '@lucide/svelte';
   import type { Order, Payment } from '@arpos/shared-types';
   import { formatCurrency } from '@arpos/utilities';
   import { posClient } from '@arpos/supabase-client';

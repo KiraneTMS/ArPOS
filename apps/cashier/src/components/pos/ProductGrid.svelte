@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Search, Plus, Utensils, Tag } from 'lucide-svelte';
+  import { Search, Plus, Utensils, Tag } from '@lucide/svelte';
   import type { Category, Product } from '@arpos/shared-types';
   import { formatCurrency } from '@arpos/utilities';
 

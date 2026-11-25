@@ -12,7 +12,7 @@
     "@arpos/shared-types": "*",
     "@arpos/supabase-client": "*",
     "@arpos/utilities": "*",
-    "lucide-svelte": "^0.468.0"
+    "@lucide/svelte": "^1.80.0"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^4.0.0",

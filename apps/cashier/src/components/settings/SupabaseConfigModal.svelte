@@ -7,7 +7,7 @@
     CheckCircle2,
     Copy,
     ExternalLink
-  } from 'lucide-svelte';
+  } from '@lucide/svelte';
   import { posClient } from '@arpos/supabase-client';
 
   let { onClose }: { onClose: () => void } = $props();

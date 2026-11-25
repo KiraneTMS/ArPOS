@@ -8,7 +8,7 @@
     CheckCircle2,
     Clock,
     Store
-  } from 'lucide-svelte';
+  } from '@lucide/svelte';
   import { formatCurrency } from '@arpos/utilities';
   import { posClient } from '@arpos/supabase-client';
 

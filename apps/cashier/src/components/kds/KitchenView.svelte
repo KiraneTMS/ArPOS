@@ -6,7 +6,7 @@
     Flame,
     Utensils,
     Layers
-  } from 'lucide-svelte';
+  } from '@lucide/svelte';
   import type { KitchenTicket } from '@arpos/shared-types';
   import { posClient, DEMO_KITCHEN_STATIONS } from '@arpos/supabase-client';
 

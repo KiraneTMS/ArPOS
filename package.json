@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=@arpos/cashier",
-    "build": "npm run build --workspace=@arpos/cashier"
+    "build": "npm run build --workspace=@arpos/cashier && node -e \"const fs=require('fs'); fs.cpSync('apps/cashier/dist', 'dist', {recursive: true});\""
   },
   "keywords": [
     "pos",

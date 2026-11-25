@@ -1,0 +1,19 @@
+{
+  "name": "@arpos/supabase-client",
+  "version": "1.0.0",
+  "description": "Supabase client wrapper and data store for ArPOS",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "@arpos/shared-types": "*",
+    "@arpos/utilities": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

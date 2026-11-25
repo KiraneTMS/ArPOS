@@ -1,0 +1,17 @@
+{
+  "name": "@arpos/shared-types",
+  "version": "1.0.0",
+  "description": "Shared domain types and module definitions for ArPOS",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

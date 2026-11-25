@@ -1,0 +1,17 @@
+{
+  "name": "@arpos/utilities",
+  "version": "1.0.0",
+  "description": "Domain calculations and module dependency engine for ArPOS",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@arpos/shared-types": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

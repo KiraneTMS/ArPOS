@@ -1,0 +1,24 @@
+{
+  "name": "arpos-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ArPOS - Multi-tenant Modular Restaurant POS Platform",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@arpos/cashier",
+    "build": "npm run build --workspace=@arpos/cashier"
+  },
+  "keywords": [
+    "pos",
+    "restaurant",
+    "multi-tenant",
+    "svelte",
+    "supabase",
+    "cloudflare-pages"
+  ],
+  "author": "ArPOS Team",
+  "license": "MIT"
+}

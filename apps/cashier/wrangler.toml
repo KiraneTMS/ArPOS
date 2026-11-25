@@ -1,5 +1,4 @@
 name = "arpos-cashier"
 compatibility_date = "2026-11-26"
 pages_build_output_dir = "dist"
-CLOUDFLARE_API_TOKEN = "cfut_bpQeMKDOYA3M9RCjHtyOnXtSV3S7LpwwuAVSebGX4d3f92fd"
 
